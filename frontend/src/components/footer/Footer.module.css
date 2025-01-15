@@ -1,0 +1,46 @@
+.container {
+  margin-top: 4rem;
+  padding-inline: 4rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .content{
+        width: 100%;
+    }
+}

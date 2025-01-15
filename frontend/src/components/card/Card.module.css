@@ -1,0 +1,79 @@
+.img {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cartButton {
+  border: 2px solid black;
+  color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.viewButton {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.viewButton:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.4s;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.detailCard {
+  width: 40%;
+}
+
+.detailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.desc {
+  text-align: center;
+}
+
+.favoriteIcon {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.deleteButton{
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+  padding: 0.5rem;
+  font-weight: bold;
+}

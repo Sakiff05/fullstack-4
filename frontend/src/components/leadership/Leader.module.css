@@ -1,0 +1,46 @@
+.container {
+  margin-top: 5rem;
+  padding-inline: 4rem;
+}
+
+.img {
+  width: 80%;
+}
+
+.imgWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.name{
+    font-size: 1.8rem;
+}
+
+.job{
+    color: gray;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size:2rem;
+}
+
+.icon{
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
